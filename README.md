@@ -1,4 +1,4 @@
-# Cz. 1
+# JavaScript - powtórzenie
 ## Podstawy języka
 
 Zmienna – const, let (a nie var)
@@ -89,7 +89,6 @@ const str = "rrrdddlld..." – poruszanie się po tablicy jak po mapie
 String.fromCharCode() – odszyfrowywanie kodów ASCII
 ```
 
-# Cz. 2
 ## Tworzenie obiektów
 Literal obiektu:
 
