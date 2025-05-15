@@ -187,7 +187,7 @@ console.log("Ala ma kota".mirror()); // "atok am alA"
 
 ## Operacje na tekstach
 Obiekt text z wieloma metodami:
-
+```
 const text = {
   check(txt, word) {
     return txt.includes(word);
@@ -219,3 +219,4 @@ const text = {
     ).join("");
   },
 };
+```
