@@ -48,13 +48,12 @@ Iteracja: for, for..of, forEach
 ## Funkcje
 Deklaracja:
 
-
+```
 function myFunc(x) {
   return x + 1;
 }
-
+```
 Funkcja strzałkowa:
-
 
 const double = x => x * 2;
 🔄 Instrukcje warunkowe i pętle
@@ -68,7 +67,9 @@ while (warunek)
 
 break, continue
 
-## Zadania
+
+## Inne
+```
 Palindromy (txt === txt.split('').reverse().join(''))
 
 Usuwanie duplikatów z posortowanej tablicy
@@ -86,12 +87,13 @@ Liczenie sposobów wejścia po schodach (ciąg Fibonacciego)
 const str = "rrrdddlld..." – poruszanie się po tablicy jak po mapie
 
 String.fromCharCode() – odszyfrowywanie kodów ASCII
-
+```
 
 # Cz. 2
 ## Tworzenie obiektów
 Literal obiektu:
 
+```
 const user = {
   name: "Jan",
   isActive: true,
@@ -102,16 +104,18 @@ const user = {
     this.isActive = active;
   }
 };
+```
 Konstruktor + new:
 
-
+```
 function User(name) {
   this.name = name;
 }
 const u1 = new User("Ola");
+```
 Klasa (class) — syntactic sugar dla prototypów:
 
-
+```
 class Book {
   constructor() {
     this.users = [];
@@ -140,6 +144,7 @@ class Book {
     console.log(this.users.length);
   }
 }
+```
 
 ## Tablice i operacje
 const arr = [1, 2];
@@ -148,16 +153,18 @@ Pętla forEach():
 
 arr.forEach((el) => console.log(el));
 Przykład sprawdzania pustej tablicy:
-
+```
 if (arr.length === 0) {
   console.log("Brak użytkowników");
 } else {
   console.log("Lista:", arr);
 }
+```
 
 ## Funkcje i domknięcia (closures)
 ### Closure = funkcja + zapamiętany kontekst
 
+```
 function createCounter() {
   let count = 0;
   return function () {
@@ -171,18 +178,19 @@ console.log(counter1()); // 2
 
 const counter2 = createCounter();
 console.log(counter2()); // 1
-
+```
 
 ## Prototype i dziedziczenie
 Wszystkie obiekty mają łańcuch dziedziczenia (__proto__)
-
 Klasy w JS to syntax sugar dla dziedziczenia prototypowego
 
+```
 String.prototype.mirror = function () {
   return this.split("").reverse().join("");
 };
 
 console.log("Ala ma kota".mirror()); // "atok am alA"
+```
 
 
 ## Operacje na tekstach
