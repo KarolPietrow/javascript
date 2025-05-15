@@ -4,7 +4,9 @@
 Zmienna – const, let (a nie var)
 
 let x = 5;
+
 const name = "Jan";
+
 Typy danych – string, number, boolean, array, object, null, undefined
 
 Operatory – +, -, *, /, %, ===, !==, &&, ||
